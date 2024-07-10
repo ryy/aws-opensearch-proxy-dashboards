@@ -1,0 +1,18 @@
+# OpenSearch Dashboards configuration
+
+# Default OpenSearch host(s)
+opensearch.hosts: ["http://aws-es-proxy:9200"]
+
+# Disable security
+opensearch_security.enabled: false
+
+# SSL settings
+opensearch.ssl.verificationMode: none
+
+# OpenSearch Dashboards server settings
+server.host: "0.0.0.0"
+server.port: 5601
+
+# Optional settings
+#logging.dest: stdout
+#logging.verbose: true
